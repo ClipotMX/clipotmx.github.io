@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Poppins;
+    src:url("../fonts/Poppins-Regular.ttf");
+}
+* {
+    font-family: "Poppins";
+}
+#header {
+    background-image: url('../img/leads.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
