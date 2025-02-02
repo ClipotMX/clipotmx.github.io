@@ -58,13 +58,17 @@
   font-family: "Poppins";
 }
 #header {
-  background-image: url("../img/leads.jpg");
-  background-position: center;
+  background-image: url("../img/header.jpg");
+  background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: cover;
 }
-header h1 {
+#header .row {
+  height: 100vh;
+}
+#header h2 {
   font-weight: 800 !important;
+  font-size: 3.5rem;
 }
 
 /* Heeading Styles */
@@ -78,4 +82,18 @@ h4,
 h5,
 h6 {
   font-weight: 200;
+}
+
+/* Separator */
+.separator {
+  border-top: 4px solid #e6e6e6;
+  margin: 2rem 0;
+  width: 10%;
+}
+.btn {
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 50px !important;
+  transition: all 0.3s;
 }
