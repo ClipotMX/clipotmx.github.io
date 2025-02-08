@@ -27,8 +27,8 @@ import "../../public/css/main.css";
 import "../../public/css/mobile-nav.css";
 
 export const metadata = {
-	title: "Aximo || Responsive Next.js Template",
-	description: "Aximo || Responsive Next.js Template",
+	title: "Clipot | We Know About Leads",
+	description: "Agencia de marketing digital especializada en la generación de leads.",
 };
 
 export default function HomeOneLayout({ children }) {

@@ -16,28 +16,28 @@ import Team4Img from "@/public/images/team/team4.png";
 const servicesData = [
 	{
 		id: crypto.randomUUID(),
-		title: "UI/UX Design",
+		title: "Marketing Digital & Advertising",
 		description:
 			"Focusing on user interface (UI) and user experience (UX) design enhance the usability and accessibility of digital products & app.",
 		icon: "icon-design-tools",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Graphic Design",
+		title: "Generacion & Seguimiento de Leads",
 		description:
 			"Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral.",
 		icon: "icon-branding",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Web Design",
+		title: "Desarrollo Web & E-commerce",
 		description:
 			"Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.",
 		icon: "icon-web",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Motion Graphics",
+		title: "Pocisionamiento SEO & SEM",
 		description:
 			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
 		icon: "icon-design-thinking",
@@ -46,26 +46,26 @@ const servicesData = [
 const teamsData = [
 	{
 		id: crypto.randomUUID(),
-		name: "Andrew Mark",
-		designation: "Creative Director",
+		name: "Ariel Loza",
+		designation: "Front End Developer & CEO",
 		img: Team1Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Jack Taylor",
-		designation: "Senior Designer",
+		name: "Pablo Bañuelos",
+		designation: "Productor Audiovisual",
 		img: Team2Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Martine Joy",
-		designation: "Project Manager",
+		name: "Isaac Rodriguez",
+		designation: "Diseñador Gráfico",
 		img: Team3Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Adam Straw",
-		designation: "Web Developer",
+		name: "Paola Orozco",
+		designation: "Contact Center Manager",
 		img: Team4Img,
 	},
 ];

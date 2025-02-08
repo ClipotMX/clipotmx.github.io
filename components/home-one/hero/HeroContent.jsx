@@ -12,10 +12,10 @@ function HeroContent() {
 			<FadeInStaggerTwoChildren>
 				<h1>
 					<span className="aximo-title-animation">
-						A creative
+						Somos expertos en
 						<Image src={StarImg} alt="StarImg" />
 					</span>{" "}
-					design studio
+					generar lead
 				</h1>
 			</FadeInStaggerTwoChildren>
 			<FadeInStaggerTwoChildren>
