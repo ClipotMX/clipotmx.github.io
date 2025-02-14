@@ -7,11 +7,17 @@ import Teams from "@/components/home-one/teams";
 import Testimonial from "@/components/home-one/testimonial";
 import WhyChooseUs from "@/components/home-one/why-choose-us";
 
+
 // Teams images
 import Team1Img from "@/public/images/team/team1.png";
 import Team2Img from "@/public/images/team/team2.png";
 import Team3Img from "@/public/images/team/team3.png";
 import Team4Img from "@/public/images/team/team4.png";
+
+
+
+
+
 
 const servicesData = [
 	{

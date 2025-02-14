@@ -9,9 +9,9 @@ function Services({ services }) {
 			<div className="container">
 				<div className="aximo-section-title center">
 					<h2>
-						We provide effective
+						Ofrecemos soluciones 
 						<span className="aximo-title-animation">
-							design solutions
+						digitales efectivas.
 							<span className="aximo-title-icon">
 								<Image src={Star2Img} alt="Star2Img" />
 							</span>

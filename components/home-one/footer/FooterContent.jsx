@@ -6,13 +6,13 @@ function FooterContent() {
 		<div className="aximo-default-content light position-relative">
 			<h2>
 				<span className="aximo-title-animation">
-					Lets start a
+					Comenzemos
 					<span className="aximo-title-icon">
 						<Image src={Star2Img} alt="Star2Img" />
 					</span>
 				</span>
 				<br />
-				project together
+				esta aventura
 			</h2>
 			<p>
 				We work closely with our clients to understand their objectives, target audience, and unique needs. We

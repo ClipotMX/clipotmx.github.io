@@ -20,6 +20,8 @@ import "swiper/css/scrollbar";
 import ImportBsJS from "@/components/BootstrapClient";
 import Footer from "@/components/home-one/footer";
 import Header from "@/components/home-one/header";
+import MetricoolTracker from "@/hooks/MetricoolTracker.js";
+
 
 // main css
 import "../../public/css/app.css";
@@ -32,9 +34,11 @@ export const metadata = {
 };
 
 export default function HomeOneLayout({ children }) {
+	
 	return (
 		<html lang="en">
 			<body className={`${syne.variable} ${inter.variable}`}>
+				<MetricoolTracker />
 				<ImportBsJS />
 				<Header />
 				{children}

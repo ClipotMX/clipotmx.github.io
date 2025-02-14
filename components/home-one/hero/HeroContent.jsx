@@ -15,18 +15,18 @@ function HeroContent() {
 						Somos expertos en
 						<Image src={StarImg} alt="StarImg" />
 					</span>{" "}
-					generar lead
+					generación leads
 				</h1>
 			</FadeInStaggerTwoChildren>
 			<FadeInStaggerTwoChildren>
 				<p>
-					{`We're a creative design studio specializing in meeting the needs of the new generation.
-								We offer innovative and cutting-edge design solutions to help our clients stand out in
-								today&apos;s fast-paced.`}
+					{`Como agencia de marketing digital, nos especializamos en la generación y seguimiento de leads, nuestro objetivo es que tus leads
+					nunca esten desatendidos, lo que nos daria un margen de conversion mas grande al momento de mantener a los leads calientes, ya que un lead frio es dificil de 
+					convertir, nuestras estrategias y nuestro equipo de mensajeria son la solución.`}
 				</p>
 			</FadeInStaggerTwoChildren>
 			<FadeInStaggerTwoChildren>
-				<div className="aximo-hero-user-wrap">
+			/*<div className="aximo-hero-user-wrap">
 					<div className="aximo-hero-user-thumb">
 						<div className="aximo-hero-user-thumb-item">
 							<Image src={User1Img} alt="User1Img" />
@@ -41,11 +41,11 @@ function HeroContent() {
 					<div className="aximo-hero-user-data">
 						<p>Believed by more than a thousand people</p>
 					</div>
-				</div>
-			</FadeInStaggerTwoChildren>
+				</div>*/
+			</FadeInStaggerTwoChildren> 
 			<FadeInStaggerTwoChildren>
 				<Link className="aximo-call-btn" href="/contact-us">
-					Book a free consultation <i className="icon-call"></i>
+					Agenda una videollamada <i className="icon-call"></i>
 				</Link>
 				<div className="aximo-hero-shape">
 					<Image src={ShapeImg} alt="ShapeImg" />
