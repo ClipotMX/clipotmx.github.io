@@ -26,7 +26,7 @@ function HeroContent() {
 				</p>
 			</FadeInStaggerTwoChildren>
 			<FadeInStaggerTwoChildren>
-			/*<div className="aximo-hero-user-wrap">
+			{/*<div className="aximo-hero-user-wrap">
 					<div className="aximo-hero-user-thumb">
 						<div className="aximo-hero-user-thumb-item">
 							<Image src={User1Img} alt="User1Img" />
@@ -41,7 +41,7 @@ function HeroContent() {
 					<div className="aximo-hero-user-data">
 						<p>Believed by more than a thousand people</p>
 					</div>
-				</div>*/
+				</div>*/}
 			</FadeInStaggerTwoChildren> 
 			<FadeInStaggerTwoChildren>
 				<Link className="aximo-call-btn" href="/contact-us">
