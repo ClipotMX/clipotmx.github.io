@@ -10,7 +10,7 @@ function AboutCounter() {
 					</span>
 					+
 				</h2>
-				<p>Years of experience</p>
+				<p>Años de experiencia</p>
 			</div>
 			<div className="aximo-counter-data">
 				<h2 className="aximo-counter-number">
@@ -19,7 +19,7 @@ function AboutCounter() {
 					</span>
 					k
 				</h2>
-				<p>Successful projects</p>
+				<p>Projectos Exitosos</p>
 			</div>
 			<div className="aximo-counter-data">
 				<h2 className="aximo-counter-number">
@@ -28,7 +28,7 @@ function AboutCounter() {
 					</span>
 					%
 				</h2>
-				<p>Client satisfaction rate</p>
+				<p>Rango de satisfaccion del cliente</p>
 			</div>
 		</div>
 	);
