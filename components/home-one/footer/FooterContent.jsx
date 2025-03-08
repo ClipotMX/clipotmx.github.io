@@ -15,13 +15,12 @@ function FooterContent() {
 				esta aventura
 			</h2>
 			<p>
-				We work closely with our clients to understand their objectives, target audience, and unique needs. We
-				use our creative skills to translate these requirements and practical design solutions.
+			Colaboramos estrechamente con nuestros clientes para comprender sus objetivos, público objetivo y necesidades específicas. Utilizamos nuestras habilidades creativas para transformar estos requisitos en soluciones de diseño eficaces y prácticas.
 			</p>
 			<div className="aximo-info-wrap">
 				<div className="aximo-info">
 					<ul>
-						<li>Give us a call:</li>
+						<li>Llamanos:</li>
 						<li>
 							<a href="tel:(123) 456-7890">(123) 456-7890</a>
 						</li>
@@ -29,9 +28,9 @@ function FooterContent() {
 				</div>
 				<div className="aximo-info">
 					<ul>
-						<li>Send us an email:</li>
+						<li>Envianos un Correo:</li>
 						<li>
-							<a href="mailto:info@mthemeus.com">info@mthemeus.com</a>
+							<a href="mailto:hey@clipot.com.mx">hey@clipot.com.mx</a>
 						</li>
 					</ul>
 				</div>
@@ -39,22 +38,17 @@ function FooterContent() {
 			<div className="aximo-social-icon social-large">
 				<ul>
 					<li>
-						<a href="https://twitter.com/" target="_blank">
-							<i className="icon-twitter"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://facebook.com/" target="_blank">
+						<a href="https://www.facebook.com/clipotleads/" target="_blank">
 							<i className="icon-facebook"></i>
 						</a>
 					</li>
 					<li>
-						<a href="https://www.instagram.com/" target="_blank">
+						<a href="https://www.instagram.com/clipotleads" target="_blank">
 							<i className="icon-instagram"></i>
 						</a>
 					</li>
 					<li>
-						<a href="https://www.linkedin.com/" target="_blank">
+						<a href="https://www.linkedin.com/clipotleads" target="_blank">
 							<i className="icon-linkedin"></i>
 						</a>
 					</li>

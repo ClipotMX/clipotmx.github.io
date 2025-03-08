@@ -6,13 +6,13 @@ function FooterBottom() {
 			<div className="col-lg-6">
 				<div className="aximo-footer-logo">
 					<a href="#">
-						<Image src={LogoWhiteImg} alt="Logo" />
+						<Image src={LogoWhiteImg} alt="Logo"  width={"128"}/>
 					</a>
 				</div>
 			</div>
 			<div className="col-lg-6">
 				<div className="aximo-copywright one">
-					<p> &copy; Copyright 2024, All Rights Reserved by Mthemeus</p>
+					<p> &copy; Copyright 2025, All Rights Reserved by Clipot</p>
 				</div>
 			</div>
 		</>

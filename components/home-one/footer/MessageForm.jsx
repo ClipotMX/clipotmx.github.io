@@ -23,29 +23,29 @@ function MessageForm() {
 						type="text"
 						name="name"
 						id="name"
-						placeholder="Your Name"
+						placeholder="Nombre"
 					/>
 				</Field>
 			</div>
 			<div className="aximo-form-field">
 				<Field error={errors.email}>
 					<input
-						{...register("email", { required: "Email is required." })}
+						{...register("email", { required: "El correo es necesario." })}
 						type="email"
 						name="email"
 						id="email"
-						placeholder="Your email address"
+						placeholder="Correo"
 					/>
 				</Field>
 			</div>
 			<div className="aximo-form-field">
-				<input type="text" placeholder="+088-234-6849" />
+				<input type="text" placeholder="33 4598 4839" />
 			</div>
 			<div className="aximo-form-field">
-				<textarea name="textarea" placeholder="Write your message here..."></textarea>
+				<textarea name="textarea" placeholder="Escribe tu mensaje aquí..."></textarea>
 			</div>
 			<button id="aximo-submit-btn" type="submit">
-				Send message{" "}
+				Enviar Mensaje{" "}
 				<span>
 					<Image src={ArrowRight3Img} alt="ArrowRight3Img" />
 				</span>
