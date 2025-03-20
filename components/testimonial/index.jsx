@@ -1,10 +1,10 @@
 import FadeInStagger from "@/components/animation/FadeInStagger";
 import Image from "next/image";
-import Star2Img from "../../../public/images/v1/star2.png";
-import Thumb1Img from "../../../public/images/v1/t_thumb1.png";
-import Thumb2Img from "../../../public/images/v1/t_thumb2.png";
-import Thumb3Img from "../../../public/images/v1/t_thumb3.png";
-import Thumb4Img from "../../../public/images/v1/t_thumb4.png";
+import Star2Img from "./../../public/images/v1/star2.png";
+import Thumb1Img from "./../../public/images/v1/t_thumb1.png";
+import Thumb2Img from "./../../public/images/v1/t_thumb2.png";
+import Thumb3Img from "./../../public/images/v1/t_thumb3.png";
+import Thumb4Img from "./../../public/images/v1/t_thumb4.png";
 import TestimonialCard from "./TestimonialCard";
 
 const testimonialsData = [

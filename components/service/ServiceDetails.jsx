@@ -1,7 +1,7 @@
 import Image from "next/image";
-import SingleImg from "./../public/images/service/service-single.png";
-import Star2Img from "./../public/images/v1/star2.png";
-import FadeInUp from "./animation/FadeInUp";
+import SingleImg from "./../../public/images/service/service-single.png";
+import Star2Img from "./../../public/images/v1/star2.png";
+import FadeInUp from "../animation/FadeInUp";
 import WorkingApproach from "./WorkingApproach";
 function ServiceDetails() {
 	return (

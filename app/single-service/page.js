@@ -1,5 +1,5 @@
 import BreadCrumb from "@/components/common/Breadcrumb";
-import Testimonial from "@/components/home-one/testimonial";
+import Testimonial from "@/components/testimonial";
 import ServiceDetails from "@/components/service/ServiceDetails";
 
 function SingleService() {
