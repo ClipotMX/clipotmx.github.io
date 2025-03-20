@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import ErrorImg from "../../../public/images/about/404.png";
-import ArrowRightImg from "../../../public/images/icon/arrow-right.svg";
-import Star2Img from "../../../public/images/v1/star2.png";
+import ErrorImg from "./../../public/images/about/404.png";
+import ArrowRightImg from "./../../public/images/icon/arrow-right.svg";
+import Star2Img from "./../../public/images/v1/star2.png";
 export default function ErrorPage() {
 	return (
 		<div className="section">
