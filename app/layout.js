@@ -24,7 +24,7 @@ import MetricoolTracker from "@/hooks/MetricoolTracker.js";
 
 
 // main css
-import "@/public/css/qpp.css";
+import "@/public/css/app.css";
 import "@/public/css/main.css";
 import "@/public/css/mobile-nav.css";
 
