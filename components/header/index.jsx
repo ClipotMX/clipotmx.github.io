@@ -17,7 +17,7 @@ function Header() {
 					<HeaderLogo />
 					<div className="menu-block-wrapper">
 						<DesktopNav>
-							<NavItem url="home-one" className="active">
+							<NavItem url="/" className="active">
 								Inicio
 							</NavItem>
 							<NavItem url="about-us">Nosotros</NavItem>
