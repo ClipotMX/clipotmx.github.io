@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Single2Img from "../../public/images/service/service-single2.png";
-import Star2Img from "../../public/images/v1/star2.png";
+import Single2Img from "./../public/images/service/service-single2.png";
+import Star2Img from "./../public/images/v1/star2.png";
 import FadeInRight from "../animation/FadeInRight";
 
 const workingApprochData = [

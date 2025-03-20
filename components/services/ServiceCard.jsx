@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import ArrowRightImg from "../../../public/images/icon/arrow-right.svg";
+import ArrowRightImg from "./../../public/images/icon/arrow-right.svg";
 function ServiceCard({ service: { title, description, icon } }) {
 	return (
 		<div className="aximo-iconbox-wrap">

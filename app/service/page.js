@@ -1,8 +1,8 @@
 import BreadCrumb from "@/components/common/Breadcrumb";
 import TwoColumnFaq from "@/components/contact/TwoColumnFaq";
-import AutoSlider from "@/components/home-one/auto-slider";
-import Services from "@/components/home-one/services";
-import WhyChooseUs from "@/components/home-one/why-choose-us";
+import AutoSlider from "@/components/auto-slider";
+import Services from "@/components/services";
+import WhyChooseUs from "@/components/why-choose-us";
 const services = [
 	{
 		id: crypto.randomUUID(),
