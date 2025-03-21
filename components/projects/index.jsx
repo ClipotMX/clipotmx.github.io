@@ -2,11 +2,11 @@
 import Image from "next/image";
 import { Mousewheel, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Project1Img from "../../../public/images/v1/project1.png";
-import Project2Img from "../../../public/images/v1/project2.png";
-import Project3Img from "../../../public/images/v1/project3.png";
-import Project4Img from "../../../public/images/v1/project4.png";
-import Star2Img from "../../../public/images/v1/star2.png";
+import Project1Img from "./../../public/images/v1/project1.png";
+import Project2Img from "./../../public/images/v1/project2.png";
+import Project3Img from "./../../public/images/v1/project3.png";
+import Project4Img from "./../../public/images/v1/project4.png";
+import Star2Img from "./../../public/images/v1/star2.png";
 import ProjectCard from "./ProjectCard";
 
 const projectsData = [

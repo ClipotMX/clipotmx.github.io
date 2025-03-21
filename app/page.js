@@ -1,11 +1,11 @@
-import About from "@/components/home-one/about";
-import AutoSlider from "@/components/home-one/auto-slider";
-import Hero from "@/components/home-one/hero";
-import Projects from "@/components/home-one/projects";
-import Services from "@/components/home-one/services";
-import Teams from "@/components/home-one/teams";
-import Testimonial from "@/components/home-one/testimonial";
-import WhyChooseUs from "@/components/home-one/why-choose-us";
+import About from "@/components/about";
+import AutoSlider from "@/components/auto-slider";
+import Hero from "@/components/hero";
+import Projects from "@/components/projects";
+import Services from "@/components/services";
+import Teams from "@/components/teams";
+import Testimonial from "@/components/testimonial";
+import WhyChooseUs from "@/components/why-choose-us";
 
 
 // Teams images

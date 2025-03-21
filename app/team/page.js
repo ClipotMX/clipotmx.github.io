@@ -1,6 +1,6 @@
 // Team member images
 import BreadCrumb from "@/components/common/Breadcrumb";
-import Teams from "@/components/home-one/teams";
+import Teams from "@/components/teams";
 import Team1Img from "./../../public/images/team/team1.png";
 import Team10Img from "./../../public/images/team/team10.png";
 import Team11Img from "./../../public/images/team/team11.png";

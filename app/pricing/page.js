@@ -1,6 +1,6 @@
 import BreadCrumb from "@/components/common/Breadcrumb";
-import AutoSlider from "@/components/home-one/auto-slider";
-import Testimonial from "@/components/home-one/testimonial";
+import AutoSlider from "@/components/auto-slider";
+import Testimonial from "@/components/testimonial";
 import PricingFaq from "@/components/pricing/PricingFaq";
 import PricingPlan from "@/components/pricing/PricingPlan";
 

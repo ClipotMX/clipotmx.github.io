@@ -1,11 +1,11 @@
 import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "@/components/animation/FadeInStaggerTwo";
 import Image from "next/image";
 import Link from "next/link";
-import ShapeImg from "../../../public/images/v1/shape1.png";
-import StarImg from "../../../public/images/v1/star.png";
-import User1Img from "../../../public/images/v1/user1.png";
-import User2Img from "../../../public/images/v1/user2.png";
-import User3Img from "../../../public/images/v1/user3.png";
+import ShapeImg from "./../../public/images/v1/shape1.png";
+import StarImg from "./../../public/images/v1/star.png";
+import User1Img from "./../../public/images/v1/user1.png";
+import User2Img from "./../../public/images/v1/user2.png";
+import User3Img from "./../../public/images/v1/user3.png";
 function HeroContent() {
 	return (
 		<FadeInStaggerTwo className="aximo-hero-content">
