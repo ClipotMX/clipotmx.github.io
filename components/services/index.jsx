@@ -1,6 +1,6 @@
 import FadeInStagger from "@/components/animation/FadeInStagger";
 import Image from "next/image";
-import Star2Img from "./../../public/images/v1/star2.png";
+import Star2Img from "@/public/images/v1/star2.png";
 import ServiceCard from "./ServiceCard";
 
 function Services({ services }) {

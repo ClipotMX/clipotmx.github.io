@@ -64,7 +64,7 @@ const services = [
 function ServicePage() {
 	return (
 		<>
-		<p>Post: {router.query.slug}</p>
+		
 			<BreadCrumb title="Service" />
 			<Services services={services} />
 			<AutoSlider />
