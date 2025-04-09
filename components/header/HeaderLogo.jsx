@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "./../../public/images/logo/logo-white.svg";
+import Logo from "./../../public/images/logo/logo_white.svg";
 function HeaderLogo() {
 	return (
 		<div className="brand-logo">

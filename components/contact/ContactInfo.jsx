@@ -11,7 +11,7 @@ function ContactInfo() {
 				<div className="aximo-contact-info-title">
 					<h2>
 						<span className="aximo-title-animation">
-							Contact Information
+							Información de Contacto
 							<span className="aximo-title-icon">
 								<Image src={Star2Img} alt="Star" />
 							</span>
@@ -19,41 +19,29 @@ function ContactInfo() {
 					</h2>
 				</div>
 				<FadeInStaggerTwo className="row">
-					<FadeInStaggerTwoChildren className="col-xl-4 col-md-6">
+					<FadeInStaggerTwoChildren className="col-xl-6 col-md-6">
 						<div className="aximo-contact-info-box">
 							<div className="aximo-contact-info-icon">
 								<Image src={Call2Img} alt="Call Img" />
 							</div>
 							<div className="aximo-contact-info-data">
-								<span>Call us</span>
-								<p>+088-234-6532-789</p>
-								<p>+088-456-3217-005</p>
+								<span>Llamanos</span>
+								<p>+52 1 33 4184 5712</p>
 							</div>
 						</div>
 					</FadeInStaggerTwoChildren>
-					<FadeInStaggerTwoChildren className="col-xl-4 col-md-6">
+					<FadeInStaggerTwoChildren className="col-xl-6 col-md-6">
 						<div className="aximo-contact-info-box">
 							<div className="aximo-contact-info-icon">
 								<Image src={EmailImg} alt="Email" />
 							</div>
 							<div className="aximo-contact-info-data">
-								<span>Call us</span>
-								<p>example@gmail.com</p>
-								<p>example@gmail.com</p>
+								<span>Envianos correo</span>
+								<p>hey@clipot.com.mx</p>
 							</div>
 						</div>
 					</FadeInStaggerTwoChildren>
-					<FadeInStaggerTwoChildren className="col-xl-4 col-md-6">
-						<div className="aximo-contact-info-box">
-							<div className="aximo-contact-info-icon">
-								<Image src={MapImg} alt="Map" />
-							</div>
-							<div className="aximo-contact-info-data">
-								<span>Office address</span>
-								<p>4132 Thornridge City, New York.</p>
-							</div>
-						</div>
-					</FadeInStaggerTwoChildren>
+				
 				</FadeInStaggerTwo>
 			</div>
 		</div>

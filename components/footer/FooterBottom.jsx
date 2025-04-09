@@ -1,5 +1,5 @@
 import Image from "next/image";
-import LogoWhiteImg from "./../../public/images/logo/logo-white.svg";
+import LogoWhiteImg from "./../../public/images/logo/logo_white.svg";
 function FooterBottom() {
 	return (
 		<>

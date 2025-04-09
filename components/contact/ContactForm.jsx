@@ -22,12 +22,12 @@ function ContactForm() {
 						<div className="aximo-section-title">
 							<h2>
 								<span className="aximo-title-animation">
-									Contact us for a
+									Envianos un mensjae
 									<span className="aximo-title-icon">
 										<Image src={Star2Img} alt="Star" />
 									</span>
 								</span>
-								personal experience
+								cuentanos tu idea.
 							</h2>
 						</div>
 					</div>
@@ -43,9 +43,9 @@ function ContactForm() {
 						<div className="aximo-main-form">
 							<form onSubmit={handleSubmit(submitForm)}>
 								<div className="aximo-main-field">
-									<Field label="Your Name" error={errors.name}>
+									<Field label="Nombre Completo" error={errors.name}>
 										<input
-											{...register("name", { required: "Name is required." })}
+											{...register("name", { required: "El nombre es muy importante" })}
 											type="name"
 											name="name"
 											id="name"
@@ -53,9 +53,9 @@ function ContactForm() {
 									</Field>
 								</div>
 								<div className="aximo-main-field">
-									<Field label="Enter email address" error={errors.email}>
+									<Field label="Correo Electronico" error={errors.email}>
 										<input
-											{...register("email", { required: "Email is required." })}
+											{...register("email", { required: "Por favor ingresa tu correo" })}
 											type="email"
 											name="email"
 											id="email"
@@ -63,9 +63,9 @@ function ContactForm() {
 									</Field>
 								</div>
 								<div className="aximo-main-field">
-									<Field label="Enter Phone Number" error={errors.phone}>
+									<Field label="Numero de Contacto" error={errors.phone}>
 										<input
-											{...register("phone", { required: "Phone is required." })}
+											{...register("phone", { required: "Se requiere un numero." })}
 											type="phone"
 											name="phone"
 											id="phone"
@@ -73,11 +73,11 @@ function ContactForm() {
 									</Field>
 								</div>
 								<div className="aximo-main-field">
-									<label>Write your message here...</label>
+									<label>Escribe tu mensaje...</label>
 									<textarea name="textarea"></textarea>
 								</div>
 								<button id="aximo-main-btn" type="submit">
-									Send Message
+									Enviar Información
 								</button>
 							</form>
 						</div>

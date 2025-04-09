@@ -22,30 +22,30 @@ import Team4Img from "@/public/images/team/team4.png";
 const servicesData = [
 	{
 		id: crypto.randomUUID(),
-		title: "Marketing Digital & Advertising",
+		title: "Marketing Digital & Publicidad",
 		description:
-			"Focusing on user interface (UI) and user experience (UX) design enhance the usability and accessibility of digital products & app.",
+			"Creamos estrategias dedicadas a la generacion de Leads, lo que despues de procesados pueden convertirse en ventas y sumas a tu empresa..",
 		icon: "icon-design-tools",
 	},
 	{
 		id: crypto.randomUUID(),
 		title: "Generacion & Seguimiento de Leads",
 		description:
-			"Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral.",
+			"Nuestro objetivo es captar a tus Leads que puedan convertirse en tu proximo cliente, nuestro objetivo principal en toda la estrategia.",
 		icon: "icon-branding",
 	},
 	{
 		id: crypto.randomUUID(),
 		title: "Desarrollo Web & E-commerce",
 		description:
-			"Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.",
+			"La presencia online es clave para el crecimiento de cualquier negocio tanto fisico como online, tu sitio web o tienda en linea y olvidate de complicaciones. ",
 		icon: "icon-web",
 	},
 	{
 		id: crypto.randomUUID(),
 		title: "Pocisionamiento SEO & SEM",
 		description:
-			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
+			"Eleva tu negocio en Google y deja que te descubran para generar mas oportunides de ventas, obten mejores resultados en tus camapañas y aumenta las posibilidades de que te vean.",
 		icon: "icon-design-thinking",
 	},
 ];
