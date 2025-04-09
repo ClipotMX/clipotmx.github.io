@@ -39,7 +39,7 @@ const teamsData = [
 function AboutUs() {
 	return (
 		<>
-			<BreadCrumb title="About Us" />
+			<BreadCrumb title="Nosotros" />
 			<About />
 			<Story />
 			<AutoSlider />
