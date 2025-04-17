@@ -1,8 +1,8 @@
 import BreadCrumb from "@/components/common/Breadcrumb";
 import ContactForm from "@/components/contact/ContactForm";
 import ContactInfo from "@/components/contact/ContactInfo";
-//import GoogleMap from "@/components/contact/GoogleMap";
-//import TwoColumnFaq from "@/components/contact/TwoColumnFaq";
+import GoogleMap from "@/components/contact/GoogleMap";
+import TwoColumnFaq from "@/components/contact/TwoColumnFaq";
 
 function ContactUs() {
 	const location = {
@@ -17,8 +17,8 @@ function ContactUs() {
 			<BreadCrumb title="Contactanos" />
 			<ContactForm />
 			<ContactInfo />
-			{/*<GoogleMap location={location} /> 
-			<TwoColumnFaq />*/}
+			<GoogleMap location={location} /> 
+			<TwoColumnFaq />
 		</>
 	);
 }
