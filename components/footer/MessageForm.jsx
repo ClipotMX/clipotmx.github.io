@@ -19,7 +19,7 @@ function MessageForm() {
 			<div className="aximo-form-field">
 				<Field error={errors.name}>
 					<input
-						{...register("name", { required: "Name is required." })}
+						{...register("name", { required: "El Nombre es necesario." })}
 						type="text"
 						name="name"
 						id="name"

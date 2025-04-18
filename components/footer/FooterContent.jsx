@@ -22,7 +22,7 @@ function FooterContent() {
 					<ul>
 						<li>Llamanos:</li>
 						<li>
-							<a href="tel:(123) 456-7890">(123) 456-7890</a>
+							<a href="tel:+5213341845712">33 4184 5712</a>
 						</li>
 					</ul>
 				</div>
