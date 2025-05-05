@@ -7,114 +7,50 @@ import Star3Img from "./../../public/images/v1/star3.png";
 const sliderData = [
 	{
 		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
+		title: "Diseño Gráfico",
 		img: Star3Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
+		title: "Marketing Digital",
 		img: Star3Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
+		title: "Publicidad Online",
 		img: Star3Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
+		title: "Generación de Leads",
 		img: Star3Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
+		title: "Desarrollo Web",
 		img: Star3Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
+		title: "Gestión de Leads",
 		img: Star3Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
+		title: "Diseño Web",
 		img: Star3Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
+		title: "Manejo de Redes Sociales",
 		img: Star3Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
+		title: "Desarrollo de e-Commerce",
 		img: Star3Img,
 	},
-	{
-		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
-		img: Star3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
-		img: Star3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
-		img: Star3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
-		img: Star3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
-		img: Star3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
-		img: Star3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
-		img: Star3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
-		img: Star3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
-		img: Star3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
-		img: Star3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
-		img: Star3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
-		img: Star3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		title: "Let&apos;s create new experiences",
-		img: Star3Img,
-	},
+	
 ];
 
 const swiperSettings = {
