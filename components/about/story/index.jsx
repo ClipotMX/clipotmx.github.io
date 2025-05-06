@@ -9,17 +9,21 @@ function Story() {
 				<div className="aximo-section-title center title-description">
 					<h2>
 						<span className="aximo-title-animation">
-							We think our story is
+							El trato humano combinado
 							<span className="aximo-title-icon">
 								<Image src={Star2Img} alt="star" />
 							</span>
 						</span>
-						worth sharing with you
+						con la tecnologia
 					</h2>
 					<p>
-						Established in 2008, we began as a small but ambitious team. We understood the importance of
-						creative and tech-savvy solutions to help businesses succeed in the ever-changing digital
-						landscape.
+						Establecidos desde 2024, fundamos nuestra marca como una empresa
+						innovadora y comprometida con el éxito de nuestros clientes.
+						Desde nuestros inicios, nos hemos enfocado en ofrecer soluciones para generar y gestionar leads,
+						desarrollar e-commerce, gestionar redes sociales y diseñar páginas web.
+						Con un equipo altamente capacitado y una metodología de trabajo
+						basada en la excelencia, estamos comprometidos a brindar soluciones
+						eficientes y efectivas para nuestros clientes.
 					</p>
 				</div>
 

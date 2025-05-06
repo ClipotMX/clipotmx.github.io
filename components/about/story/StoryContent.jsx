@@ -2,7 +2,7 @@ function StoryContent() {
 	return (
 		<div className="row">
 			<div className="col-lg-6">
-				<h3>Our core vision</h3>
+				<h3>Nuestra Visión</h3>
 				<p>
 					Empowering businesses to create impactful and visually stunning brand experiences that captivate
 					audiences and drive success in the digital age.
@@ -14,7 +14,7 @@ function StoryContent() {
 				</p>
 			</div>
 			<div className="col-lg-6">
-				<h3>Our main mission</h3>
+				<h3>Nuestra Misión</h3>
 				<p>
 					Our mission is to collaborate with businesses of all sizes, from startups to established brands, to
 					provide innovative and creative design solutions.
