@@ -12,14 +12,14 @@ import ProjectCard from "./ProjectCard";
 const projectsData = [
 	{
 		id: crypto.randomUUID(),
-		title: "Product Design",
-		description: "Developing the look and feel of physical products, aesthetics, and functionality.",
+		title: "Expoceramicas",
+		description: "Desarrollo de estrategias para generar leads de valor.",
 		img: Project1Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Logo and Branding",
-		description: "Creating or refreshing a company&apos;s logo and developing a cohesive visual identity.",
+		title: "Land 4 Fun",
+		description: "Desarrollo de sitio web e integracion de plataforma Kommmo CRM.",
 		img: Project2Img,
 	},
 	{

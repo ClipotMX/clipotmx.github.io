@@ -3,8 +3,6 @@ import AutoSlider from "@/components/auto-slider";
 import Hero from "@/components/hero";
 import Projects from "@/components/projects";
 import Services from "@/components/services";
-import Teams from "@/components/teams";
-import Testimonial from "@/components/testimonial";
 import WhyChooseUs from "@/components/why-choose-us";
 
 
@@ -49,6 +47,7 @@ const servicesData = [
 		icon: "icon-design-thinking",
 	},
 ];
+/*
 const teamsData = [
 	{
 		id: crypto.randomUUID(),
@@ -74,7 +73,7 @@ const teamsData = [
 		designation: "Contact Center Manager",
 		img: Team4Img,
 	},
-];
+];*/
 export default function HomeOne() {
 	return (
 		<>
@@ -83,9 +82,7 @@ export default function HomeOne() {
 			<About />
 			<Projects />
 			<WhyChooseUs />
-			<Testimonial />
 			<AutoSlider />
-			<Teams teams={teamsData} />
 		</>
 	);
 }

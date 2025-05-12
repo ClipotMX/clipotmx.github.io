@@ -11,7 +11,7 @@ function Accordion() {
 						data-bs-toggle="collapse"
 						data-bs-target="#collapseOne"
 					>
-						01/ Project idea
+						01. Reunión
 					</button>
 				</h3>
 				<div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#aximo-accordion">
@@ -28,7 +28,7 @@ function Accordion() {
 						data-bs-toggle="collapse"
 						data-bs-target="#collapseTwo"
 					>
-						02/ Brainstorming
+						02. Brainstorming
 					</button>
 				</h3>
 				<div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
@@ -45,10 +45,27 @@ function Accordion() {
 						data-bs-toggle="collapse"
 						data-bs-target="#collapseThree"
 					>
-						03/ Launch
+						03. Desarrollo
 					</button>
 				</h3>
 				<div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
+					<div className="accordion-body">
+						The completed design assets or final product are delivered with necessary documentation.
+					</div>
+				</div>
+			</FadeInStaggerTwoChildren>
+			<FadeInStaggerTwoChildren className="accordion-item">
+				<h3 className="accordion-header">
+					<button
+						className="accordion-button collapsed"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#collapseFour"
+					>
+						04. Lanzamiento
+					</button>
+				</h3>
+				<div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
 					<div className="accordion-body">
 						The completed design assets or final product are delivered with necessary documentation.
 					</div>

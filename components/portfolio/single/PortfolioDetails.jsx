@@ -31,15 +31,15 @@ function PortfolioDetails() {
 				<div className="aximo-project-info-wrap">
 					<div className="aximo-project-info">
 						<h3>Client:</h3>
-						<p>Alfado Company,UK</p>
+						<p></p>
 					</div>
 					<div className="aximo-project-info">
-						<h3>Date:</h3>
+						<h3>Fecha:</h3>
 						<p>June</p>
 					</div>
 					<div className="aximo-project-info">
-						<h3>Duration:</h3>
-						<p>Two Months</p>
+						<h3>Duración:</h3>
+						<p>12+ A</p>
 					</div>
 					<div className="aximo-project-info">
 						<h3>Cost:</h3>
