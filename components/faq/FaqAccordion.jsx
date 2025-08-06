@@ -8,12 +8,13 @@ function FaqAccordion() {
 				<div className="aximo-section-title center">
 					<h2>
 						<span className="aximo-title-animation">
-							These FAQs help
+							Nuestras Preguntas Frecuentes
+
 							<span className="aximo-title-icon">
 								<Image src={Star2Img} alt="Star" />
 							</span>
 						</span>
-						clients learn about us
+						ayuda a clientes a conocenor mejor.
 					</h2>
 				</div>
 

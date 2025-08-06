@@ -17,13 +17,8 @@ function Story() {
 						con la tecnologia
 					</h2>
 					<p>
-						Establecidos desde 2024, fundamos nuestra marca como una empresa
-						innovadora y comprometida con el éxito de nuestros clientes.
-						Desde nuestros inicios, nos hemos enfocado en ofrecer soluciones para generar y gestionar leads,
-						desarrollar e-commerce, gestionar redes sociales y diseñar páginas web.
-						Con un equipo altamente capacitado y una metodología de trabajo
-						basada en la excelencia, estamos comprometidos a brindar soluciones
-						eficientes y efectivas para nuestros clientes.
+						Fundada en 2024, somos una empresa innovadora especializada en soluciones digitales integrales.
+Nos enfocamos en generación de leads, desarrollo de e-commerce, gestión de redes sociales y diseño web. Con un equipo experto y metodología orientada a resultados, transformamos las necesidades de nuestros clientes en soluciones exitosas que impulsan su crecimiento.
 					</p>
 				</div>
 

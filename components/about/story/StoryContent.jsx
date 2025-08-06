@@ -4,25 +4,19 @@ function StoryContent() {
 			<div className="col-lg-6">
 				<h3>Nuestra Visión</h3>
 				<p>
-					Empowering businesses to create impactful and visually stunning brand experiences that captivate
-					audiences and drive success in the digital age.
+					Colaboramos con empresas de todos los tamaños para crear experiencias de marca visualmente impactantes que cautiven audiencias y generen resultados reales en la era digital.
 				</p>
 				<p>
-					Our team consists of experienced designers, developers. We have a wide variety of skills and
-					backgrounds, allowing us to tackle projects of all sizes and complexities. We believe in the power
-					of imagination and innovation.
+					Nos especializamos en proporcionar soluciones de diseño innovadoras y creativas que no solo cumplen, sino que superan las expectativas de nuestros clientes, conectándolos de manera efectiva con su mercado objetivo.
 				</p>
 			</div>
 			<div className="col-lg-6">
 				<h3>Nuestra Misión</h3>
 				<p>
-					Our mission is to collaborate with businesses of all sizes, from startups to established brands, to
-					provide innovative and creative design solutions.
+					Ser la agencia de diseño líder que transforma ideas en experiencias de marca extraordinarias, empoderando a las empresas para alcanzar el éxito sostenible en el ecosistema digital global.
 				</p>
 				<p>
-					We are committed to creating designs that inspire, connect & our clients in the marketplace. Our
-					focus is on understanding. Our clients unique needs and delivery designs that not only meet but
-					exceed their expectations.
+					Aspiramos a ser reconocidos como socios estratégicos indispensables para empresas que buscan diferenciarse y crear conexiones auténticas con sus audiencias.
 				</p>
 			</div>
 		</div>
