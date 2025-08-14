@@ -21,7 +21,7 @@ import ImportBsJS from "@/components/BootstrapClient";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import MetricoolTracker from "@/hooks/MetricoolTracker.js";
-
+import Script from 'next/script';
 
 // main css
 import "@/public/css/app.css";
@@ -34,10 +34,24 @@ export const metadata = {
 };
 
 export default function HomeOneLayout({ children }) {
-	
 	return (
 		<html lang="en">
 			<body className={`${syne.variable} ${inter.variable}`}>
+				{/* Google Analytics */}
+				<Script
+					src="https://www.googletagmanager.com/gtag/js?id=G-5LZX1NZ1TR"
+					strategy="afterInteractive"
+				/>
+				<Script id="google-analytics" strategy="afterInteractive">
+					{`
+						 	window.dataLayer = window.dataLayer || [];
+							function gtag(){dataLayer.push(arguments);}
+							gtag('js', new Date());
+
+							gtag('config', 'G-5LZX1NZ1TR');
+					`}
+				</Script>
+				
 				<MetricoolTracker />
 				<ImportBsJS />
 				<Header />
