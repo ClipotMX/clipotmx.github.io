@@ -37,7 +37,7 @@ export const metadata = {
 export default function HomeOneLayout({ children }) {
   return (
     <html lang="en">
-      <Script
+      <script
         dangerouslySetInnerHTML={{
           __html: `
               (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
