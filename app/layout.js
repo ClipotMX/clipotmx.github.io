@@ -21,7 +21,7 @@ import ImportBsJS from "@/components/BootstrapClient";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import MetricoolTracker from "@/hooks/MetricoolTracker.js";
-import Script from 'next/script';
+import Script from "next/script";
 
 // main css
 import "@/public/css/app.css";
@@ -29,40 +29,41 @@ import "@/public/css/main.css";
 import "@/public/css/mobile-nav.css";
 
 export const metadata = {
-	title: "Clipot | We Know About Leads",
-	description: "Agencia de marketing digital especializada en la generación de leads.",
+  title: "Clipot | We Know About Leads",
+  description:
+    "Agencia de marketing digital especializada en la generación de leads.",
 };
 
 export default function HomeOneLayout({ children }) {
-	return (
-		<html lang="en">
-			 <Script
-          dangerouslySetInnerHTML={{
-            __html: `
+  return (
+    <html lang="en">
+      <Script
+        dangerouslySetInnerHTML={{
+          __html: `
               (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-PLSBG8GJ');
             `,
-          }}
+        }}
+      />
+      <body className={`${syne.variable} ${inter.variable}`}>
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-5LZX1NZ1TR"
+          strategy="afterInteractive"
         />
-			<body className={`${syne.variable} ${inter.variable}`}>
-				{/* Google Analytics */}
-				<Script
-					src="https://www.googletagmanager.com/gtag/js?id=G-5LZX1NZ1TR"
-					strategy="afterInteractive"
-				/>
-				<Script id="google-analytics" strategy="afterInteractive">
-					{`
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
 						 	window.dataLayer = window.dataLayer || [];
 							function gtag(){dataLayer.push(arguments);}
 							gtag('js', new Date());
 
 							gtag('config', 'G-5LZX1NZ1TR');
 					`}
-				</Script>
-				 {/* Google Tag Manager (noscript) */}
+        </Script>
+        {/* Google Tag Manager (noscript) */}
         <noscript
           dangerouslySetInnerHTML={{
             __html: `
@@ -71,13 +72,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
             `,
           }}
         />
-				
-				<MetricoolTracker />
-				<ImportBsJS />
-				<Header />
-				{children}
-				<Footer />
-			</body>
-		</html>
-	);
+
+        <MetricoolTracker />
+        <ImportBsJS />
+        <Header />
+        {children}
+        <Footer />
+      </body>
+    </html>
+  );
 }
