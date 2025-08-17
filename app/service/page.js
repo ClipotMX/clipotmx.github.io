@@ -6,56 +6,56 @@ import WhyChooseUs from "@/components/why-choose-us";
 const services = [
 	{
 		id: crypto.randomUUID(),
-		title: "UI/UX Design",
+		title: "Marketing Digital",
 		description:
 			"Focusing on user interface (UI) and user experience (UX) design enhance the usability and accessibility of digital products & app.",
 		icon: "icon-design-tools",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Graphic Design",
+		title: "Diseño Gráfico",
 		description:
 			"Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral.",
 		icon: "icon-branding",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Web Design",
+		title: "Desarrollo Web",
 		description:
 			"Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.",
 		icon: "icon-web",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Motion Graphics",
+		title: "e-Commerce",
 		description:
 			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
 		icon: "icon-design-thinking",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Packaging Design",
+		title: "Generacion de Leads",
 		description:
 			"Creating packaging solutions for products that not only protect them but also attract customers on store shelves.",
 		icon: "icon-layers",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Logo and Branding",
+		title: "Gestion de Leads",
 		description:
 			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
 		icon: "icon-rating-stars-1",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Illustration",
+		title: "Gestion de Redes Sociales",
 		description:
 			"Producing custom illustrations for editorial content, books, websites, marketing materials, magazines and more.",
 		icon: "icon-chef",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Product Design",
+		title: "Publicidad Online",
 		description:
 			"Developing the look and feel of physical products, considering ergonomics, aesthetics, and functionality.",
 		icon: "icon-target-1",
@@ -65,7 +65,7 @@ function ServicePage() {
 	return (
 		<>
 		
-			<BreadCrumb title="Service" />
+			<BreadCrumb title="Nuestros Servicios" />
 			<Services services={services} />
 			<AutoSlider />
 			<WhyChooseUs />
