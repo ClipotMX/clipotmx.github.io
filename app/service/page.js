@@ -1,4 +1,4 @@
-import BreadCrumb from "@/components/common/Breadcrumb";
+
 import TwoColumnFaq from "@/components/contact/TwoColumnFaq";
 import AutoSlider from "@/components/auto-slider";
 import Services from "@/components/services";
@@ -10,6 +10,7 @@ const services = [
 		description:
 			"Focusing on user interface (UI) and user experience (UX) design enhance the usability and accessibility of digital products & app.",
 		icon: "icon-design-tools",
+		link: "ui-ux-design",
 	},
 	{
 		id: crypto.randomUUID(),
@@ -17,6 +18,7 @@ const services = [
 		description:
 			"Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral.",
 		icon: "icon-branding",
+		link: "graphic-design",
 	},
 	{
 		id: crypto.randomUUID(),
@@ -24,6 +26,7 @@ const services = [
 		description:
 			"Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.",
 		icon: "icon-web",
+		link: "web-design",
 	},
 	{
 		id: crypto.randomUUID(),
@@ -31,6 +34,7 @@ const services = [
 		description:
 			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
 		icon: "icon-design-thinking",
+		link: "motion-graphics",
 	},
 	{
 		id: crypto.randomUUID(),
@@ -38,6 +42,7 @@ const services = [
 		description:
 			"Creating packaging solutions for products that not only protect them but also attract customers on store shelves.",
 		icon: "icon-layers",
+		link: "packaging-design",
 	},
 	{
 		id: crypto.randomUUID(),
@@ -45,6 +50,7 @@ const services = [
 		description:
 			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
 		icon: "icon-rating-stars-1",
+		link: "logo-branding",
 	},
 	{
 		id: crypto.randomUUID(),
@@ -52,6 +58,7 @@ const services = [
 		description:
 			"Producing custom illustrations for editorial content, books, websites, marketing materials, magazines and more.",
 		icon: "icon-chef",
+		link: "illustration",
 	},
 	{
 		id: crypto.randomUUID(),
@@ -59,13 +66,13 @@ const services = [
 		description:
 			"Developing the look and feel of physical products, considering ergonomics, aesthetics, and functionality.",
 		icon: "icon-target-1",
+		link: "product-design",
 	},
 ];
 function ServicePage() {
 	return (
 		<>
 		
-			<BreadCrumb title="Service" />
 			<Services services={services} />
 			<AutoSlider />
 			<WhyChooseUs />

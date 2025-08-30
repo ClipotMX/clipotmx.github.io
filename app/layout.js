@@ -29,8 +29,8 @@ import "@/public/css/main.css";
 import "@/public/css/mobile-nav.css";
 
 export const metadata = {
-	title: "Clipot | We Know About Leads",
-	description: "Agencia de marketing digital especializada en la generación de leads.",
+	title: "Agencia de Marketign Digital en Guadalajara | Clipot",
+	description: "Agencia de marketing digital en guadalajara que te ayuda a generar leads.",
 };
 
 export default function HomeOneLayout({ children }) {
