@@ -6,23 +6,23 @@ import WhyChooseUs from "@/components/why-choose-us";
 const services = [
 	{
 		id: crypto.randomUUID(),
-		title: "UI/UX Design",
+		title: "Generación de Leads",
 		description:
 			"Focusing on user interface (UI) and user experience (UX) design enhance the usability and accessibility of digital products & app.",
 		icon: "icon-design-tools",
-		link: "ui-ux-design",
+		link: "lead-generation",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Graphic Design",
+		title: "Desarrollo Web",
 		description:
 			"Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral.",
 		icon: "icon-branding",
-		link: "graphic-design",
+		link: "web-development",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Web Design",
+		title: "Marketing Digital",
 		description:
 			"Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.",
 		icon: "icon-web",
@@ -34,7 +34,7 @@ const services = [
 		description:
 			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
 		icon: "icon-design-thinking",
-		link: "motion-graphics",
+		link: "marketing-digital",
 	},
 	{
 		id: crypto.randomUUID(),
