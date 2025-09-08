@@ -22,6 +22,7 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 import MetricoolTracker from "@/hooks/MetricoolTracker.js";
 import Script from 'next/script';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 // main css
 import "@/public/css/app.css";
@@ -53,6 +54,7 @@ export default function HomeOneLayout({ children }) {
 				</Script>
 				
 				<MetricoolTracker />
+				<SpeedInsights/>
 				<ImportBsJS />
 				<Header />
 				{children}

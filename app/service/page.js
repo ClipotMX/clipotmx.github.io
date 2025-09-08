@@ -26,11 +26,11 @@ const services = [
 		description:
 			"Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.",
 		icon: "icon-web",
-		link: "web-design",
+		link: "marketing-digital",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Motion Graphics",
+		title: "Diseño Digital",
 		description:
 			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
 		icon: "icon-design-thinking",
@@ -38,35 +38,35 @@ const services = [
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Packaging Design",
+		title: "Paid Media",
 		description:
 			"Creating packaging solutions for products that not only protect them but also attract customers on store shelves.",
 		icon: "icon-layers",
-		link: "packaging-design",
+		link: "paid-media",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Logo and Branding",
+		title: "SEO",
 		description:
 			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
 		icon: "icon-rating-stars-1",
-		link: "logo-branding",
+		link: "seo",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Illustration",
+		title: "Gestion de Redes Sociales",
 		description:
 			"Producing custom illustrations for editorial content, books, websites, marketing materials, magazines and more.",
 		icon: "icon-chef",
-		link: "illustration",
+		link: "community-management",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Product Design",
+		title: "Branding",
 		description:
 			"Developing the look and feel of physical products, considering ergonomics, aesthetics, and functionality.",
 		icon: "icon-target-1",
-		link: "product-design",
+		link: "branding",
 	},
 ];
 function ServicePage() {
