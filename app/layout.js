@@ -21,7 +21,8 @@ import ImportBsJS from "@/components/BootstrapClient";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import MetricoolTracker from "@/hooks/MetricoolTracker.js";
-import Script from 'next/script';
+import Script from "next/script";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 // main css
 import "@/public/css/app.css";
@@ -29,35 +30,48 @@ import "@/public/css/main.css";
 import "@/public/css/mobile-nav.css";
 
 export const metadata = {
-	title: "Agencia de Marketign Digital en Guadalajara | Clipot",
-	description: "Agencia de marketing digital en guadalajara que te ayuda a generar leads.",
+  title: "Agencia de Marketign Digital en Guadalajara | Clipot",
+  description:
+    "Agencia de marketing digital en guadalajara que te ayuda a generar leads.",
 };
 
 export default function HomeOneLayout({ children }) {
-	return (
-		<html lang="en">
-			<body className={`${syne.variable} ${inter.variable}`}>
-				{/* Google Analytics */}
-				<Script
-					src="https://www.googletagmanager.com/gtag/js?id=G-5LZX1NZ1TR"
-					strategy="afterInteractive"
-				/>
-				<Script id="google-analytics" strategy="afterInteractive">
-					{`
+  return (
+    <html lang="en">
+		<Script id="gtm-script-one">{`
+				(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+				j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+				'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+				})(window,document,'script','dataLayer','GTM-PLSBG8GJ'); 
+`}</Script>
+      <body className={`${syne.variable} ${inter.variable}`}>
+        {/* Google Analytics */}
+        <Script id="gtm-script-two"
+          src="https://www.googletagmanager.com/gtag/js?id=G-5LZX1NZ1TR"
+          strategy="afterInteractive"
+        />
+        <Script id="gtm-script">{`
+				<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLSBG8GJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+`}</Script>
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
 						 	window.dataLayer = window.dataLayer || [];
 							function gtag(){dataLayer.push(arguments);}
 							gtag('js', new Date());
 
 							gtag('config', 'G-5LZX1NZ1TR');
 					`}
-				</Script>
-				
-				<MetricoolTracker />
-				<ImportBsJS />
-				<Header />
-				{children}
-				<Footer />
-			</body>
-		</html>
-	);
+        </Script>
+
+        <MetricoolTracker />
+        <SpeedInsights />
+        <ImportBsJS />
+        <Header />
+        {children}
+        <Footer />
+      </body>
+    </html>
+  );
 }

@@ -1,5 +1,5 @@
 import BreadCrumb from "@/components/common/Breadcrumb";
-import ServiceDetails from "@/components/service/ServiceDetails";
+import ServiceDetails from "@/components/service/web-development/ServiceDetails";
 
 function SingleService() {
 	return (
