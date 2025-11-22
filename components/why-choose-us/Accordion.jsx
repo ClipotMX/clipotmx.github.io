@@ -16,7 +16,7 @@ function Accordion() {
 				</h3>
 				<div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#aximo-accordion">
 					<div className="accordion-body">
-						The process starts with a detailed discussion with the client to understand their idea & goals.
+						Una reunión inicial para discutir los objetivos del proyecto, los recursos disponibles y cualquier otra información relevante.
 					</div>
 				</div>
 			</FadeInStaggerTwoChildren>
@@ -33,7 +33,7 @@ function Accordion() {
 				</h3>
 				<div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
 					<div className="accordion-body">
-						rainstorming is a group creativity technique in which members attempt to find a conclusion.
+						Una sesión de brainstorming para generar ideas y resolver problemas.
 					</div>
 				</div>
 			</FadeInStaggerTwoChildren>
@@ -50,7 +50,7 @@ function Accordion() {
 				</h3>
 				<div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
 					<div className="accordion-body">
-						The completed design assets or final product are delivered with necessary documentation.
+						El desarrollo del proyecto se lleva a cabo siguiendo los estándares de calidad y el cronograma establecido.
 					</div>
 				</div>
 			</FadeInStaggerTwoChildren>
@@ -67,7 +67,7 @@ function Accordion() {
 				</h3>
 				<div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
 					<div className="accordion-body">
-						The completed design assets or final product are delivered with necessary documentation.
+						El lanzamiento del proyecto se lleva a cabo de manera coordinada y se asegura de que cumpla con los estándares de calidad y los requisitos del cliente.
 					</div>
 				</div>
 			</FadeInStaggerTwoChildren>
