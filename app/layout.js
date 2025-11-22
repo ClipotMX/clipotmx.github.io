@@ -38,7 +38,7 @@ export const metadata = {
 export default function HomeOneLayout({ children }) {
   return (
     <html lang="en">
-		<Script>{`
+		<Script id="gtm-script-one">{`
 				(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 				j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -47,11 +47,11 @@ export default function HomeOneLayout({ children }) {
 `}</Script>
       <body className={`${syne.variable} ${inter.variable}`}>
         {/* Google Analytics */}
-        <Script
+        <Script id="gtm-script-two"
           src="https://www.googletagmanager.com/gtag/js?id=G-5LZX1NZ1TR"
           strategy="afterInteractive"
         />
-        <Script>{`
+        <Script id="gtm-script">{`
 				<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLSBG8GJ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe>
 `}</Script>
