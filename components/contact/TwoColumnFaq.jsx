@@ -5,35 +5,35 @@ const faqData = {
 	faq1: [
 		{
 			id: crypto.randomUUID(),
-			title: "What services does agency offer?",
-			text: "Clients often seek to understand the range of design services an agency provides, such as graphic design, web design, branding.",
+			title: "Que servicios ofrece la agencia?",
+			text: "Ofrecemos una amplia gama de servicios de diseño, incluyendo diseño gráfico, diseño web, branding y más.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "What is your design process like?",
-			text: "Explaining the design agency&apos;s process from initial concept to final delivery helps clients understand what to expect.",
+			title: "Cual es tu proceso de diseño?",
+			text: "El proceso de diseño incluye la discusión con el cliente para entender sus necesidades y objetivos, la creación de conceptos visuales, la iteración y revisión del diseño, y la finalización del proyecto.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "How much does design work cost?",
-			text: "The cost of our design services varies depending on the scope of the project. We provide customized quotes after discussing requirements.",
+			title: "Cual es el costo de los servicios de diseño?",
+			text: "El costo de nuestros servicios de diseño varía según el alcance del proyecto. Ofrecemos cotizaciones personalizadas después de discutir los requisitos.",
 		},
 	],
 	faq2: [
 		{
 			id: crypto.randomUUID(),
-			title: "What&apos;s your design process like?",
-			text: "Our design process typically involves discovery, concept development, design, revisions based on feedback, and finalization.",
+			title: "Cual es tu proceso de trabajo?",
+			text: "El proceso de trabajo incluye la recepción de la solicitud, la discusión con el cliente para entender sus necesidades y objetivos, la creación de conceptos visuales, la iteración y revisión del diseño, y la finalización del proyecto.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "How do you handle user feedback?",
-			text: "We value client feedback and work closely with you to make sure user happy with the final design. We offer a specific number of revisions.",
+			title: "Cual es el número de revisiones que ofreces?",
+			text: "Ofrecemos un número específico de revisiones basadas en la complejidad del proyecto y la satisfacción del cliente.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "Can we see samples of your work?",
-			text: "Yes, we're proud to showcase a portfolio of our previous projects. You can find examples of our work on our website or view our portfolio.",
+			title: "Cual es el número de revisiones que ofreces?",
+			text: "Ofrecemos un número específico de revisiones basadas en la complejidad del proyecto y la satisfacción del cliente.",
 		},
 	],
 };
@@ -43,9 +43,9 @@ function TwoColumnFaq() {
 			<div className="container">
 				<div className="aximo-section-title center">
 					<h2>
-						These FAQs help
+						Estas son algunas 
 						<span className="aximo-title-animation">
-							clients learn about us
+						de las preguntas más frecuentes
 							<span className="aximo-title-icon">
 								<Image src={Star2Img} alt="Star" />
 							</span>

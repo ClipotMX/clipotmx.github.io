@@ -6,67 +6,67 @@ import WhyChooseUs from "@/components/why-choose-us";
 const services = [
 	{
 		id: crypto.randomUUID(),
-		title: "UI/UX Design",
+		title: "Generación de Leads",
 		description:
-			"Focusing on user interface (UI) and user experience (UX) design enhance the usability and accessibility of digital products & app.",
+			"Creamos estrategias claras y poderosas para generar leads de manera eficiente y efectiva.",
 		icon: "icon-design-tools",
-		link: "ui-ux-design",
+		link: "lead-generation",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Graphic Design",
+		title: "Desarrollo Web",
 		description:
-			"Creating visual elements such as logos, branding materials, page layout techniques, brochures, & other marketing collateral.",
+			"Desarrollamos sitios web modernos y funcionales, adaptados a las necesidades y objetivos de tu negocio.",
 		icon: "icon-branding",
-		link: "graphic-design",
+		link: "web-development",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Web Design",
+		title: "Marketing Digital",
 		description:
-			"Designing and developing websites to ensure they are visually look and appealing, user-friendly, and functional your website.",
+			"Desarrollamos estrategias de marketing digital para aumentar la visibilidad y el tráfico de tu negocio en línea.",
 		icon: "icon-web",
-		link: "web-design",
+		link: "marketing-digital",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Motion Graphics",
+		title: "Diseño Digital",
 		description:
-			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
+			"Desarrollamos diseños digitales atractivos y funcionales, que capturan la atención y convierten a los usuarios en clientes.",
 		icon: "icon-design-thinking",
-		link: "motion-graphics",
+		link: "design-digital",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Packaging Design",
+		title: "Paid Media",
 		description:
-			"Creating packaging solutions for products that not only protect them but also attract customers on store shelves.",
+			"Desarrollamos campañas de publicidad en redes sociales para aumentar la presencia en línea de tu negocio y atraer a nuevos clientes.",
 		icon: "icon-layers",
-		link: "packaging-design",
+		link: "paid-media",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Logo and Branding",
+		title: "SEO",
 		description:
-			"Creating animate graphics, videos for various purposes, including marketing and entertainment. To help sell a product or service.",
+			"Optimizamos tu sitio web para mejorar su visibilidad en los motores de búsqueda, aumentando así el tráfico orgánico y convertido en clientes.",
 		icon: "icon-rating-stars-1",
-		link: "logo-branding",
+		link: "seo",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Illustration",
+		title: "Gestion de Redes Sociales",
 		description:
-			"Producing custom illustrations for editorial content, books, websites, marketing materials, magazines and more.",
+			"Administramos y optimizamos tus perfiles en redes sociales para aumentar la interacción y la presencia de tu negocio.",
 		icon: "icon-chef",
-		link: "illustration",
+		link: "social-media-management",
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Product Design",
+		title: "Branding",
 		description:
-			"Developing the look and feel of physical products, considering ergonomics, aesthetics, and functionality.",
+			"Desarrollamos una identidad visual única y memorable para tu negocio, que refleje su valores y atraiga a los clientes.",
 		icon: "icon-target-1",
-		link: "product-design",
+		link: "branding",
 	},
 ];
 function ServicePage() {
